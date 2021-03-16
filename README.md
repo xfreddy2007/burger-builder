@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Burger Builder
 
-## Available Scripts
+## An App which you can order your customized burgers and sent orders to the backend.
 
-In the project directory, you can run:
+Feel free to try yourself and play with the app. url:https://burger-builder-a6e21.web.app/
 
-### `npm start`
+## Features
+✔️ FrontEnd Project (mainly)
+✔️ React Framework used for Front-End\
+✔️ Firebase used for Back-End & Database\
+✔️ Implementing React Hooks, Redux, and other features
+✔️ CSS module implemented
+✔️ Light Clean Codes\
+✔️ Fully Responsive\
+✔️ Valid HTML5 & CSS3
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+## Getting Started 🚀
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+When you reach the frontpage you have to signin for further use. It can then redirect to the builder page and start to build you own burger. Orders will be stored in the Firebase Database. you can always revisit the orders in the order page to see the past orders.
 
-### `npm test`
+## Why React?
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is mainly my second React project, and it has only a purpose to improve the understanding of React framework. React is a widely use framework and has a huge Ecosystem, active community, and high performance. It helps developers to be easier to manage UI states across entire application, and focus on the business logics.
 
-### `npm run build`
+## Redux review
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project utilize redux. Redux is a central state management for the entire app. It gives a place (store) to store the state and can be extract by all components in the app. It can avoid the use of property chain for nested child components from a parent component to pass state as props to them. Since redux can take care of actions and states in a central place, we don't have to manage states in seperate components, and can stick to use more stateless components.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+# React Hooks
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This is a new feature React team just provide in 16.8. It's the main practice knowledge for this project. React Hooks simply uses functional components. In the past if we need to manage state or use lifecycle hooks, we have to use class-based components. For React hooks we can manage state by using `useState()` hook, and to do lfecycle hooks use `useEffect()` hook for some funcitons with side effects (e.g. http request). This allow use to have more clean codes, and easy to manage states within the components.
