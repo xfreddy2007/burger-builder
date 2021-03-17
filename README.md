@@ -5,14 +5,14 @@
 Feel free to try yourself and play with the app. url:https://burger-builder-a6e21.web.app/
 
 ## Features
-✔️ FrontEnd Project (mainly)
+✔️ FrontEnd Project (mainly)\
 ✔️ React Framework used for Front-End\
 ✔️ Firebase used for Back-End & Database\
-✔️ Implementing React Hooks, Redux, and other features
-✔️ CSS module implemented
+✔️ Implementing React Hooks, Redux, and other features\
+✔️ CSS module implemented\
 ✔️ Light Clean Codes\
 ✔️ Fully Responsive\
-✔️ Valid HTML5 & CSS3
+✔️ Valid HTML5 & CSS3\
 
 ---
 ## Getting Started 🚀
@@ -27,6 +27,10 @@ This project is mainly my second React project, and it has only a purpose to imp
 
 This project utilize redux. Redux is a central state management for the entire app. It gives a place (store) to store the state and can be extract by all components in the app. It can avoid the use of property chain for nested child components from a parent component to pass state as props to them. Since redux can take care of actions and states in a central place, we don't have to manage states in seperate components, and can stick to use more stateless components.
 
-# React Hooks
+## React Hooks
 
 This is a new feature React team just provide in 16.8. It's the main practice knowledge for this project. React Hooks simply uses functional components. In the past if we need to manage state or use lifecycle hooks, we have to use class-based components. For React hooks we can manage state by using `useState()` hook, and to do lfecycle hooks use `useEffect()` hook for some funcitons with side effects (e.g. http request). This allow use to have more clean codes, and easy to manage states within the components.
+
+## Where to go from here
+
+This is a practice project for me. For really implementing in real business projects I still need more practice and understanding about React and the workflow about an app product. Hope this project catches your eyes.
